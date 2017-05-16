@@ -34,5 +34,5 @@ for cmd in [cmd1,cmd2]:
     execute(cmd)
 
 cmd3 = "wmctrl -r :ACTIVE: -b add,maximized_vert,maximized_horz"
-if width == int(left[0]) or width == int(rigth[0]):
+if width == int(left[0]) or width == int(right[0]):
     execute(cmd3)
